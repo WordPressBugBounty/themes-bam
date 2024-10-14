@@ -1,0 +1,77 @@
+/* Main column width */
+.editor-styles-wrapper {
+	max-width: 100% !important; /* Override where editor-style.css is affecting this. */
+}
+
+.wp-block {
+	max-width: 960px; /* Based on one-column post width; 930px + 30px to account for padding. */
+}
+
+/* Alignments */
+
+.edit-post-visual-editor .alignleft {
+	margin-right: 1.5em;
+}
+
+.edit-post-visual-editor .alignright {
+	margin-left: 1.5em;
+}
+
+/* List styles */
+.edit-post-visual-editor ul.wp-block-gallery {
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+/* Quotes */
+.editor-styles-wrapper .wp-block-pullquote blockquote {
+    border-left: none;
+}
+
+.wp-block-quote[style*="text-align:right"], .wp-block-quote[style*="text-align: right"] {
+    border-right: 4px solid #FF4F4F;
+}
+
+.widgettitle,
+.is-style-bam-widget-title {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.3;
+    border-bottom: 1px solid #dddddd;
+    margin: 0 0 15px;
+    padding-bottom: 3px;
+}
+
+.wp-block-search .wp-block-search__input {
+    margin: 0;
+    height: 45px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    color: #666;
+    border: 1px solid #dddddd;
+}
+  
+.wp-block-search .wp-block-search__button {
+    height: 45px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 0;
+    border-radius: 3px;
+    background: #FF4F4F;
+    color: #ffffff;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+  
+.wp-block-search .wp-block-search__button:hover {
+    background: #222222;
+}
