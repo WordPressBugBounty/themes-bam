@@ -56,6 +56,7 @@ final class Bam_Theme {
 		require_once( $dir . 'class-bam-gutenberg.php' );
 		require_once( $dir . 'widgets/class-tabs-widget.php' );
 		require_once( $dir . 'widgets/class-sidebar-posts.php' );
+		require_once( $dir . 'widgets/class-popular-posts.php' );
 		require_once( $dir . 'block-styles.php');
 
 		if ( defined( 'JETPACK__VERSION' ) ) {

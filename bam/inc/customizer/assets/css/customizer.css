@@ -66,3 +66,11 @@ ul.th-responsive-switches li {
     border: none;
     box-shadow: none;
 }
+
+#customize-theme-controls .accordion-section-title button.accordion-trigger {
+    max-height: fit-content;
+}
+
+#customize-theme-controls #accordion-section-bam_upsell .accordion-section-title:after {
+    display: none;
+}

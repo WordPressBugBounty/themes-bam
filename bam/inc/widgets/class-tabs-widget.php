@@ -95,7 +95,7 @@ class Bam_Tabbed_Widget extends WP_Widget {
 		<div class="tab-content clearfix">
 			<div id="bam-popular">
 				<?php 
-					$args = array( 
+					$post_args = array( 
 						'ignore_sticky_posts' => 1, 
 						'posts_per_page' => $nop, 
 						'post_status' => 'publish', 
@@ -105,14 +105,14 @@ class Bam_Tabbed_Widget extends WP_Widget {
 					);
 
 					if( isset( $date_range ) && ! empty( $date_range ) ) {
-						$args[ 'date_query' ] = array(
+						$post_args[ 'date_query' ] = array(
 							array(
 								'after' => $date_range . ' days ago'
 							)
 						);
 					}
 
-					$popular = new WP_Query( $args );
+					$popular = new WP_Query( $post_args );
 
 					if ( $popular->have_posts() ) :
 

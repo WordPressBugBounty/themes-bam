@@ -2,9 +2,9 @@
 
 Contributors: pubudu-malalasekara
 Requires at least: 4.5
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.3
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,9 @@ Bam is a great flexible theme for blogging sites.
 Bam supports all the major plugins.
 
 == Changelog ==
+
+= 1.3.4 =
+* New: Added Popular Posts widget which displays popular posts based on the comment count.
 
 = 1.3.3 =
 * New: Added support for Yoast Breadcrumbs, Breadcrumb NavXT and Rank Math Breadcrumbs. ( Appearance > Customize > General Settings > Breadcrumb Source )
