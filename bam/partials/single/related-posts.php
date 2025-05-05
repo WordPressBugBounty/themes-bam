@@ -32,6 +32,9 @@ if ( 'tag' == $bam_related_posts_taxonomy ) {
     $bam_post_args['tag__in'] = $bam_terms_ids; 
 }
 
+// Filter for related posts arguments.
+$bam_post_args = apply_filters( 'bam_related_posts_query_args', $bam_post_args );
+
 // Related posts query.
 $bam_related_posts = new WP_Query( $bam_post_args );
 

@@ -256,7 +256,7 @@ final class Bam_Theme {
 		wp_deregister_style( 'fontawesome' );
 
 		// Load font awesome style
-		wp_enqueue_style( 'font-awesome', $dir_uri .'fonts/css/all.min.css', false, '5.15.4' );
+		wp_enqueue_style( 'font-awesome', $dir_uri .'fonts/css/all.min.css', false, '6.7.2' );
 
 		wp_enqueue_style( 'bam-style', get_stylesheet_uri(), array(), $theme_version );
 

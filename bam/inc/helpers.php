@@ -215,8 +215,8 @@ if ( ! function_exists( 'bam_social_options' ) ) {
 				'icon_class'	=> 'fab fa-youtube'
 			),
 			'twitter' => array(
-				'label'			=> esc_html__( 'Twitter', 'bam' ),
-				'icon_class'	=> 'fab fa-twitter'
+				'label'			=> esc_html__( 'X', 'bam' ),
+				'icon_class'	=> 'fa-brands fa-x-twitter'
 			),
 			'pinterest' => array(
 				'label'			=> esc_html__( 'Pinterest', 'bam' ),

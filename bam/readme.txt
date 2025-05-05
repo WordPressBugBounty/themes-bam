@@ -2,9 +2,9 @@
 
 Contributors: pubudu-malalasekara
 Requires at least: 4.5
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.3
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,11 @@ Bam is a great flexible theme for blogging sites.
 Bam supports all the major plugins.
 
 == Changelog ==
+
+= 1.3.5 =
+* New: Upgraded Font Awesome to version 6.7.2 (from 5.15.4).
+* New: Added a filter to modify the related posts query arguments.
+* New: Updated Twitter icon.
 
 = 1.3.4 =
 * New: Added Popular Posts widget which displays popular posts based on the comment count.
