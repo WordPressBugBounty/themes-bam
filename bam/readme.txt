@@ -2,9 +2,9 @@
 
 Contributors: pubudu-malalasekara
 Requires at least: 4.5
-Tested up to: 6.8
+Tested up to: 7.1
 Requires PHP: 5.3
-Stable tag: 1.3.5
+Stable tag: 1.3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,10 @@ Bam is a great flexible theme for blogging sites.
 Bam supports all the major plugins.
 
 == Changelog ==
+
+= 1.3.6 =
+* New: Added more social media icon options.
+* Fix: Added the styles previously provided by theme.css to blocks.scss, as WordPress 7.0 and later no longer load them via add_theme_support( 'wp-block-styles' ).
 
 = 1.3.5 =
 * New: Upgraded Font Awesome to version 6.7.2 (from 5.15.4).

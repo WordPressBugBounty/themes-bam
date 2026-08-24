@@ -276,7 +276,7 @@ if ( ! class_exists( 'Bam_Gutenberg' ) ) {
             $dir_uri = BAM_DIR_URI;
 
             // Block styles.
-            wp_enqueue_style( 'bam-block-editor-style', $dir_uri . '/assets/css/editor-blocks.css', array(), '1.0.0' );
+            wp_enqueue_style( 'bam-block-editor-style', $dir_uri . '/assets/css/editor-blocks.css', array(), wp_get_theme()->get( 'Version' ) );
 
             // Get custom css.
             $css = $this->block_editor_inline_style();

@@ -226,10 +226,38 @@ if ( ! function_exists( 'bam_social_options' ) ) {
 				'label'			=> esc_html__( 'Instagram', 'bam' ),
 				'icon_class'	=> 'fab fa-instagram'
 			),
+			'whatsapp' => array(
+				'label'			=> esc_html__( 'WhatsApp', 'bam' ),
+				'icon_class'	=> 'fab fa-whatsapp'
+			),
 			'linkedin' => array(
 				'label'			=> esc_html__( 'LinkedIn', 'bam' ),
 				'icon_class'	=> 'fab fa-linkedin'
 			),
+			'reddit' => array(
+				'label'			=> esc_html__( 'Reddit', 'bam' ),
+				'icon_class'	=> 'fab fa-reddit'
+			),			
+			'bluesky' => array(
+				'label'			=> esc_html__( 'Bluesky', 'bam' ),
+				'icon_class'	=> 'fab fa-bluesky'
+			),
+			'snapchat' => array(
+				'label'      => esc_html__( 'Snapchat', 'bam' ),
+				'icon_class' => 'fab fa-snapchat'
+			),	
+			'threads' => array(
+				'label'      => esc_html__( 'Threads', 'bam' ),
+				'icon_class' => 'fab fa-threads'
+			),
+			'quora' => array(
+				'label'      => esc_html__( 'Quora', 'bam' ),
+				'icon_class' => 'fab fa-quora'
+			),
+			'patreon' => array(
+				'label'      => esc_html__( 'Patreon', 'bam' ),
+				'icon_class' => 'fab fa-patreon'
+			),					
 			'skype' => array(
 				'label'			=> esc_html__( 'Skype', 'bam' ),
 				'icon_class'	=> 'fab fa-skype'
@@ -293,6 +321,18 @@ if ( ! function_exists( 'bam_social_options' ) ) {
 			'discord' => array(
 				'label'			=> esc_html__( 'Discord', 'bam' ),
 				'icon_class'	=> 'fab fa-discord'
+			),
+			'diaspora' => array(
+				'label'			=> esc_html__( 'Diaspora', 'bam' ),
+				'icon_class'	=> 'fab fa-diaspora'
+			),
+			'wechat' => array(
+				'label'      => esc_html__( 'WeChat', 'bam' ),
+				'icon_class' => 'fab fa-weixin'
+			),
+			'line' => array(
+				'label'      => esc_html__( 'LINE', 'bam' ),
+				'icon_class' => 'fab fa-line'
 			),
 			'email' => array(
 				'label'			=> esc_html__( 'Email', 'bam' ),
